@@ -1,4 +1,4 @@
-﻿body {
+body {
     position: page;
     max-height: 80%;
     max-width: 80%;
@@ -11,6 +11,11 @@
     flex-direction: row;
     justify-content: space-between;
     text-align-last: justify;
+}
+
+h1{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .mainBody {
@@ -26,7 +31,10 @@
     flex-direction: column;
     position: relative;
     text-align: right;
-}
+ }
 
-.infoHeader {
+.guideButtons {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
 }
