@@ -1,0 +1,32 @@
+﻿body {
+    position: page;
+    max-height: 80%;
+    max-width: 80%;
+    background-image: url("ombre.jpg");
+    
+}
+
+.topBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align-last: justify;
+}
+
+.mainBody {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align:left;
+    width:500px;
+}
+
+.sidePiece {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: right;
+}
+
+.infoHeader {
+}
